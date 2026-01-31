@@ -16,7 +16,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "AppTrackingTransparency")
 public class AppTrackingTransparencyPlugin extends Plugin {
 
-    private final String pluginVersion = "1.0.0";
+    private final String pluginVersion = "8.0.0";
 
     /**
      * Returns the current tracking authorization status.
