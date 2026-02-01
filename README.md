@@ -149,9 +149,9 @@ Get the native Capacitor plugin version.
 
 Response object containing the tracking authorization status.
 
-| Prop         | Type                                                            | Description                                  | Since |
-| ------------ | --------------------------------------------------------------- | -------------------------------------------- | ----- |
-| **`status`** | <code><a href="#apptrackingstatus">AppTrackingStatus</a></code> | The current tracking authorization status.   | 1.0.0 |
+| Prop         | Type                                                            | Description                                | Since |
+| ------------ | --------------------------------------------------------------- | ------------------------------------------ | ----- |
+| **`status`** | <code><a href="#apptrackingstatus">AppTrackingStatus</a></code> | The current tracking authorization status. | 1.0.0 |
 
 
 ### Type Aliases
