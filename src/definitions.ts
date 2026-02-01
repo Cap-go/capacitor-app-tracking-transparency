@@ -93,8 +93,4 @@ export interface AppTrackingStatusResponse {
  *
  * @since 1.0.0
  */
-export type AppTrackingStatus =
-  | 'authorized'
-  | 'denied'
-  | 'notDetermined'
-  | 'restricted';
+export type AppTrackingStatus = 'authorized' | 'denied' | 'notDetermined' | 'restricted';
