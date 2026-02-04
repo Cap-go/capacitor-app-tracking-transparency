@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-app-tracking-transparency",
-  "version": "8.1.0",
+  "version": "8.1.1",
   "description": "Capacitor plugin for iOS App Tracking Transparency framework. Request user authorization to access app-related data for tracking.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
