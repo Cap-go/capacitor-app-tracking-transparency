@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapgoAppTrackingTransparency",
+    name: "CapgoCapacitorAppTrackingTransparency",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "CapgoAppTrackingTransparency",
+            name: "CapgoCapacitorAppTrackingTransparency",
             targets: ["AppTrackingTransparencyPlugin"])
     ],
     dependencies: [
