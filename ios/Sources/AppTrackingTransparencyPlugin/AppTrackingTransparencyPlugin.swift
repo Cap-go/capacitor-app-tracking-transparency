@@ -4,7 +4,7 @@ import AppTrackingTransparency
 
 @objc(AppTrackingTransparencyPlugin)
 public class AppTrackingTransparencyPlugin: CAPPlugin, CAPBridgedPlugin {
-    private let pluginVersion: String = "8.1.7"
+    private let pluginVersion: String = "8.1.8"
     public let identifier = "AppTrackingTransparencyPlugin"
     public let jsName = "AppTrackingTransparency"
     public let pluginMethods: [CAPPluginMethod] = [
