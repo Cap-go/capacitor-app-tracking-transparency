@@ -1,12 +1,27 @@
 # capacitor-app-tracking-transparency
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-app-tracking-transparency" alt="Capgo - Instant updates for Capacitor" /></a>
+
+Show Apple's App Tracking Transparency prompt and read the user's choice from your Capacitor app. Required before you access the IDFA for ads or attribution on iOS.
+
+<a href="https://capgo.app/?ref=plugin_att"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-app-tracking-transparency" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2><a href="https://capgo.app/?ref=plugin_att"> ➡️ Get Instant updates for your App with Capgo</a></h2>
-  <h2><a href="https://capgo.app/consulting/?ref=plugin_att"> Missing a feature? We'll build the plugin for you 💪</a></h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_att">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_att">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
-Capacitor plugin for iOS App Tracking Transparency framework. Request user authorization to access app-related data for tracking.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-app-tracking-transparency/main/assets/github-social-preview.png" alt="@capgo/capacitor-app-tracking-transparency for Capacitor apps" width="300" />
+</p>
+
+## Key features
+
+- **Request permission**: `requestPermission()` shows the iOS tracking prompt and returns the result.
+- **Read status**: `getStatus()` returns the current authorization without prompting.
+- **Native framework**: uses Apple's `AppTrackingTransparency` framework.
+- **Simple states**: authorized, denied, restricted or not determined.
+- **Platforms**: iOS, Android and Web. The prompt is iOS only. On Android and web, `requestPermission()` and `getStatus()` return `authorized` without prompting.
 
 ## Why Capacitor App Tracking Transparency?
 
