@@ -21,7 +21,7 @@ Show Apple's App Tracking Transparency prompt and read the user's choice from yo
 - **Read status**: `getStatus()` returns the current authorization without prompting.
 - **Native framework**: uses Apple's `AppTrackingTransparency` framework.
 - **Simple states**: authorized, denied, restricted or not determined.
-- **Platforms**: iOS. iOS only. There is no Android or web implementation.
+- **Platforms**: iOS, Android and Web. The prompt is iOS only. On Android and web, `requestPermission()` and `getStatus()` return `authorized` without prompting.
 
 ## Why Capacitor App Tracking Transparency?
 
