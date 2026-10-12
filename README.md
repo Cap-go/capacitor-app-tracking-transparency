@@ -2,7 +2,7 @@
 
 Show Apple's App Tracking Transparency prompt and read the user's choice from your Capacitor app. Required before you access the IDFA for ads or attribution on iOS.
 
-<a href="https://capgo.app/?ref=plugin_att"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-app-tracking-transparency" alt="Capgo - Instant updates for Capacitor" /></a>
+<a href="https://capgo.app/?ref=plugin_att"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-app-tracking-transparency" alt="Capgo - Build Capacitor apps with AI, ship updates instantly" /></a>
 
 <div align="center">
   <p><b>Capgo</b>: push fixes to your Capacitor users in minutes, build signed iOS and Android apps without a Mac, and roll back in one click.</p>
@@ -10,6 +10,8 @@ Show Apple's App Tracking Transparency prompt and read the user's choice from yo
   <p>14-day unlimited free trial. No credit card required</p>
   <p><a href="https://capgo.app/consulting/?ref=plugin_att">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
+
+> 🤖 **Building with an AI coding agent?** Install [Capgo skills](https://capgo.app/skills/?ref=plugin_att) so Claude Code, Codex, Cursor, Copilot, or Gemini CLI know how to install and use `@capgo/capacitor-app-tracking-transparency` in your Capacitor app: `npx skills add Cap-go/capgo-skills`. Then ask your agent: *"Add @capgo/capacitor-app-tracking-transparency to my Capacitor app and wire it up."* [Agent setup guides](https://capgo.app/agents/?ref=plugin_att) · [Hosted MCP](https://capgo.app/docs/ai/mcp/?ref=plugin_att)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Cap-go/capacitor-app-tracking-transparency/main/assets/github-social-preview.png" alt="@capgo/capacitor-app-tracking-transparency for Capacitor apps" width="300" />
